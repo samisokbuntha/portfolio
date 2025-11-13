@@ -454,7 +454,6 @@ span{
     height: 600px;
     display: flex;
     justify-content: space-between;
-    
 }
 .spece{
     width: 45%;
@@ -491,42 +490,53 @@ span{
     font-size: 25px;
     position: absolute;
     top: 430px;
-    
 }
 .textt h1{
     font-size: 25px;
     margin-top: 130px;
     text-align: center;
-
 }
  .textt p{
     font-size: 25px;
     margin-top: 20px;
     font-weight: bold;
- }
-  .textt h4{
+}
+.textt h4{
     font-size: 25px;
     margin-top: 10px;
 }
 .mian-4{
     width: 100%;
     margin: 0;
-    background-color: aqua;
 }
 .title{
     width: 100%;
     height: 80px;
-    background-color: bisque;
+    text-align: center;
+}
+.title span{
+    font-size: 20px;
+    color: #b74bb7;
+    border: solid 1px #b74bb7;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    padding: 15px;
+    margin-right: 20px;
 }
 .skill-text{
     width: 100%;
     height: 100px;
-    background-color: rgb(132, 116, 97);
+    text-align: center;
+    padding: 0;
+}
+.skill-text{
+    font-size: 20px;
+    margin: 0;
 }
 .mian-box{
     width: 100%;
     height: 200px;
-    background-color: rgb(179, 144, 101);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -534,7 +544,15 @@ span{
 .box1{
     width: 18%;
     height: 170px;
-    background-color: blue;
+    position: relative;
+}
+.box1-text{
+    position: absolute;
+    font-size: 10px;
+    color: rgb(245, 240, 240);
+    right: 0;
+    bottom: 40%;
+    left: 40%;
 }
 .box1 img{
     width: 100%;
@@ -544,7 +562,15 @@ span{
 .box2{
     width: 18%;
     height: 170px;
-    background-color: blue;
+    position: relative;
+}
+.box2-text{
+    position: absolute;
+    font-size: 10px;
+    color: rgb(245, 240, 240);
+    right: 0;
+    bottom: 40%;
+    left: 40%;
 }
 .box2 img{
     width: 100%;
@@ -554,7 +580,15 @@ span{
 .box3{
     width: 18%;
     height: 170px;
-    background-color: blue;
+    position: relative;
+}
+.box3-text{
+    position: absolute;
+    font-size: 10px;
+    color: rgb(245, 240, 240);
+    right: 0;
+    bottom: 40%;
+    left: 40%;
 }
 .box3 img{
     width: 100%;
@@ -564,7 +598,15 @@ span{
 .box4{
     width: 18%;
     height: 170px;
-    background-color: blue;
+    position: relative;
+}
+.box4-text{
+    position: absolute;
+    font-size: 10px;
+    color: rgb(245, 240, 240);
+    right: 0;
+    bottom: 40%;
+    left: 40%;
 }
 .box4 img{
     width: 100%;
@@ -574,7 +616,15 @@ span{
 .box5{
     width: 18%;
     height: 170px;
-    background-color: blue;
+    position: relative;
+}
+.box5-text{
+    position: absolute;
+    font-size: 10px;
+    color: rgb(245, 240, 240);
+    right: 0;
+    bottom: 40%;
+    left: 40%;
 }
 .box5 img{
     width: 100%;
@@ -584,7 +634,6 @@ span{
 .mian-box1{
     width: 100%;
     height: 200px;
-    background-color: rgb(105, 102, 99);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -592,7 +641,6 @@ span{
 .box-1{
     width: 18%;
     height: 170px;
-    background-color: blue;
 }
 .box-1 img{
     width: 100%;
@@ -602,7 +650,6 @@ span{
 .box-2{
     width: 18%;
     height: 170px;
-    background-color: blue;
 }
 .box-2 img{
     width: 100%;
@@ -612,7 +659,6 @@ span{
 .box-3{
     width: 18%;
     height: 170px;
-    background-color: blue;
 }
 .box-3 img{
     width: 100%;
@@ -622,7 +668,6 @@ span{
 .box-4{
     width: 18%;
     height: 170px;
-    background-color: blue;
 }
 .box-4 img{
     width: 100%;
@@ -632,10 +677,115 @@ span{
 .box-5{
     width: 18%;
     height: 170px;
-    background-color: blue;
 }
 .box-5 img{
     width: 100%;
     height: 70%;
     object-fit: contain;
+}
+.mian-5{
+    width: 100%;
+    display: block;
+}
+.titlee{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.titlee span{
+    font-size: 20px;
+    border: 1px solid #b74bb7;
+    color: #b74bb7;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.texttt{
+    width: 100%;
+    text-align: center;
+}
+.texttt{
+    font-size: 15px;
+    margin: 50px;
+
+}
+.imgg{
+    
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.imgg1{
+    width: 30%;
+}
+.imgg1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.imgg2{
+    width: 30%;
+    height: 200px;
+    }
+.imgg2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.imgg3{
+    width: 30%;
+    height: 200px;
+}
+.imgg3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.view{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.view1{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+}
+.view1 a{
+    font-size: 20px;
+    color: #b74bb7;
+    margin-top: 30px;
+    border: 1px solid #b74bb7;
+    border-radius: 50px;
+    padding: 10px;
+}
+.view2{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+}
+.view2 a{
+    font-size: 20px;
+    color: #b74bb7;
+    margin-top: 30px;
+    border: 1px solid #b74bb7;
+    border-radius: 50px;
+    padding: 10px;
+}
+.view3{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+}
+.view3 a{
+    font-size: 20px;
+    color: #b74bb7;
+    margin-top: 30px;
+    border: 1px solid #b74bb7;
+    border-radius: 50px;
+    padding: 10px;
 }
