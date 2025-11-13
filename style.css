@@ -63,7 +63,7 @@ nav a.active {
   border-bottom: 3px solid #b74bb7;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 768px) {
   nav {
     position: absolute;
     display: none;
@@ -275,6 +275,11 @@ span {
   padding: 10px;
   margin-right: 40px;
   top: 0;
+  cursor: pointer;
+}
+.about-me:hover{
+  transform: scale3d(1.03);
+  box-shadow: 0 0 20px #b74bb7;
 }
 .pic {
   width: 30%;
@@ -323,7 +328,9 @@ span {
   border-radius: 50px;
   padding: 10px;
   margin-left: 43%;
+  cursor: pointer;
 }
+
 .text-1 {
   width: 45%;
   height: 100%;
@@ -884,4 +891,7 @@ span {
 .date h1 {
   font-size: 20px;
   margin-top: 20px;
+}
+@media only screen (max-width:768px) {
+
 }
